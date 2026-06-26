@@ -1,0 +1,67 @@
+{
+  "name": "birthday-memory-adventure",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A sanitized portfolio edition of a custom birthday memory adventure game.",
+  "author": "",
+  "main": "electron/main.cjs",
+  "type": "module",
+  "engines": {
+    "node": ">=20.17"
+  },
+  "scripts": {
+    "dev": "vite",
+    "dev:lan": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "electron:dev": "npm run build && electron .",
+    "dist:mac": "npm run build && electron-builder --mac dmg zip",
+    "dist:win": "npm run build && electron-builder --win nsis portable --x64",
+    "crop:food": "node scripts/crop-food-area-assets.mjs",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "phaser": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^31.7.7",
+    "electron-builder": "^26.8.1",
+    "typescript": "latest",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.9"
+  },
+  "build": {
+    "appId": "com.portfolio.birthdaymemoryadventure",
+    "productName": "Birthday Memory Adventure",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "mac": {
+      "icon": "build/icon.icns",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

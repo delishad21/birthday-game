@@ -1,0 +1,112 @@
+{
+  "area": "star-laughter",
+  "width": 1200,
+  "height": 750,
+  "layerHeight": 850,
+  "align": "bottom",
+  "layers": [
+    {
+      "key": "laughter-flooring",
+      "file": "laughter-flooring.png",
+      "render": "flooring"
+    },
+    {
+      "key": "laughter-top-fence",
+      "file": "laughter-top-fence.png",
+      "render": "sortable",
+      "blockingTiles": [
+        { "x": 7, "y": 0 },
+        { "x": 8, "y": 0 },
+        { "x": 9, "y": 0 },
+        { "x": 10, "y": 0 },
+        { "x": 11, "y": 0 },
+        { "x": 12, "y": 0 },
+        { "x": 13, "y": 0 },
+        { "x": 14, "y": 0 },
+        { "x": 15, "y": 0 },
+        { "x": 16, "y": 0 }
+      ]
+    },
+    {
+      "key": "laughter-table-2",
+      "file": "laughter-table-2.png",
+      "render": "sortable",
+      "blockingTiles": [
+        { "x": 18, "y": 1 },
+        { "x": 18, "y": 2 },
+        { "x": 19, "y": 1 },
+        { "x": 19, "y": 2 }
+      ]
+    },
+    {
+      "key": "laughter-table-1",
+      "file": "laughter-table-1.png",
+      "render": "sortable",
+      "blockingTiles": [
+        { "x": 4, "y": 1 },
+        { "x": 4, "y": 2 },
+        { "x": 5, "y": 1 },
+        { "x": 5, "y": 2 }
+      ]
+    },
+    {
+      "key": "laughter-balloon-1",
+      "file": "laughter-balloon-1.png",
+      "render": "sortable",
+      "blockingTiles": [
+        { "x": 3, "y": 12 }
+      ]
+    },
+    {
+      "key": "laughter-table-4",
+      "file": "laughter-table-4.png",
+      "render": "sortable",
+      "blockingTiles": [
+        { "x": 17, "y": 10 },
+        { "x": 17, "y": 11 },
+        { "x": 18, "y": 10 },
+        { "x": 18, "y": 11 }
+      ]
+    },
+    {
+      "key": "laughter-table-3",
+      "file": "laughter-table-3.png",
+      "render": "sortable",
+      "blockingTiles": [
+        { "x": 4, "y": 8 },
+        { "x": 4, "y": 9 },
+        { "x": 5, "y": 8 },
+        { "x": 5, "y": 9 }
+      ]
+    },
+    {
+      "key": "laughter-bottom-fence",
+      "file": "laughter-bottom-fence.png",
+      "render": "sortable",
+      "blockingTiles": [
+        { "x": 6, "y": 14 },
+        { "x": 7, "y": 14 },
+        { "x": 8, "y": 14 },
+        { "x": 9, "y": 14 },
+        { "x": 10, "y": 14 },
+        { "x": 11, "y": 14 },
+        { "x": 12, "y": 14 },
+        { "x": 13, "y": 14 },
+        { "x": 14, "y": 14 },
+        { "x": 15, "y": 14 },
+        { "x": 16, "y": 14 }
+      ]
+    },
+    {
+      "key": "laughter-left-fence",
+      "file": "laughter-left-fence.png",
+      "render": "sortable",
+      "blockingTiles": [
+        { "x": 1, "y": 6 },
+        { "x": 1, "y": 7 },
+        { "x": 1, "y": 8 },
+        { "x": 1, "y": 9 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "area": "toy-bear",
+  "width": 1200,
+  "height": 750,
+  "layerHeight": 850,
+  "align": "bottom",
+  "layers": [
+    {
+      "key": "caveGuide-cave",
+      "file": "Cave.png",
+      "render": "sortable",
+      "collisionSource": {
+        "method": "alpha-tile-coverage",
+        "tileSize": 50,
+        "alphaThreshold": 16,
+        "coverageThreshold": 0.35,
+        "notes": "Generated from Cave.png transparency. Tiles with only light non-transparent coverage are left walkable. The cave mouth is manually carved open."
+      },
+      "blockingTileRows": [
+        { "y": -1, "ranges": [[13, 14]] },
+        { "y": 0, "ranges": [[12, 18]] },
+        { "y": 1, "ranges": [[8, 19]] },
+        { "y": 2, "ranges": [[5, 20]] },
+        { "y": 3, "ranges": [[4, 20]] },
+        { "y": 4, "ranges": [[3, 21]] },
+        { "y": 5, "ranges": [[2, 21]] },
+        { "y": 6, "ranges": [[2, 21]] },
+        { "y": 7, "ranges": [[2, 20]] },
+        { "y": 8, "ranges": [[3, 19]] },
+        { "y": 9, "ranges": [[4, 18]] },
+        { "y": 10, "ranges": [[5, 18]] },
+        { "y": 11, "ranges": [[5, 18]] },
+        { "y": 12, "ranges": [[6, 10], [14, 18]] },
+        { "y": 13, "ranges": [[7, 10], [14, 17]] }
+      ]
+    }
+  ]
+}

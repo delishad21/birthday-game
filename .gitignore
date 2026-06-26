@@ -1,0 +1,18 @@
+.worktrees/
+node_modules/
+dist/
+release/
+.env
+.DS_Store
+*.local
+*.tsbuildinfo
+
+# Private media from the original personalized edition.
+public/memory-photos/
+public/flipbooks/
+public/ddr minigame/
+public/esbs/
+private-assets/
+*.mp3
+*.mp4
+!public/portfolio-media/chacha-no-star.mp3

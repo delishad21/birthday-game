@@ -18,8 +18,6 @@ The original version was built as a personalized gift with private photos, video
 
 <img width="2405" height="1353" alt="image" src="https://github.com/user-attachments/assets/05743202-4057-48ab-8336-131c89f8ba3f" />
 
-<img width="2405" height="1353" alt="image" src="https://github.com/user-attachments/assets/ad7e0482-76d1-480c-8103-7ebaa68b3c80" />
-
 ## Tech Stack
 
 - React and TypeScript for app state, overlays, editors, and UI

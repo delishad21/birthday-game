@@ -6,6 +6,20 @@ The player explores a small overworld, restores four memory stars through miniga
 
 The original version was built as a personalized gift with private photos, videos, music, names, and messages. This repository replaces that material with neutral placeholder assets so the project can be shared publicly and adapted by other developers.
 
+## Some Screenshots 
+
+<img width="2407" height="1354" alt="image" src="https://github.com/user-attachments/assets/63311a31-0b0c-4ce5-99e3-2eace120824c" />
+
+<img width="2406" height="1352" alt="image" src="https://github.com/user-attachments/assets/45578b6c-65cc-4588-a22f-a85e1e589074" />
+
+<img width="2407" height="1353" alt="image" src="https://github.com/user-attachments/assets/40c7540f-50be-48a9-96c7-341e768d62db" />
+
+<img width="2405" height="1353" alt="image" src="https://github.com/user-attachments/assets/491685c4-32c4-422f-b096-7a591f8f81a9" />
+
+<img width="2405" height="1353" alt="image" src="https://github.com/user-attachments/assets/05743202-4057-48ab-8336-131c89f8ba3f" />
+
+<img width="2405" height="1353" alt="image" src="https://github.com/user-attachments/assets/ad7e0482-76d1-480c-8103-7ebaa68b3c80" />
+
 ## Tech Stack
 
 - React and TypeScript for app state, overlays, editors, and UI
